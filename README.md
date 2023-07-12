@@ -1,16 +1,6 @@
 <h1 align="center">Guide for installing and configuring the EMS</h1>
 
 
-### Table of Contents  
-
-* [Installing and Configuring the EMS](#ems)
-
-
-
-
-
-
-
 <a name="ems"/>
 
 <details close>
