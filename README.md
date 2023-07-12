@@ -1,22 +1,8 @@
-<h1 align="center">3D Printer Control Hub</h1>
-<p align="center">Setup guide for creating a Raspberry Pi EMS Printer Control Hub leveraging Octoprint</p> 
-
----
-
-Connection Schematic for this demo: 
-
-<p align="center">
-  <img src="https://github.com/PTC-Education/RPi-EdgeMicroserver/blob/main/3D-Printer-Control-Hub/images/connection%20schematic.png" />
-</p>
-
-
----
+<h1 align="center">Guide for installing and configuring the EMS</h1>
 
 
 ### Table of Contents  
-* [Installing Raspbian](#raspbian)
-* [Cloning the Repository](#printerControl)
-* [Setting up Credentials](#keys)
+
 * [Installing and Configuring the EMS](#ems)
 
 ### Links
