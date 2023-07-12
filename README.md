@@ -5,67 +5,6 @@
 
 * [Installing and Configuring the EMS](#ems)
 
-### Links
-* [Thingworx Developer Portal Tutorial](https://developer.thingworx.com/resources/guides/thingworx-raspberry-pi-quickstart)
----
-Following this guide on a fresh install of Raspbian will allow the user to connect their Octoprint instance to Thingworx using a RemoteThing. From there we can build mashups to securey monitor
-our printer's information from anywhere without worrying about port forwarding. 
-
----
-
-Examples of possble mashup designs for a 3D printer control mashup with defined pages for process monitoring and remote file management.
-
-<p align="center">
-  <img width="460" height="300" src="https://github.com/PTC-Education/RPi-EdgeMicroserver/blob/main/3D-Printer-Control-Hub/images/Remote%20Monitoring.png" />
-</p>
-
-<p align="center">
-  <img width="460" height="300" src="https://github.com/PTC-Education/RPi-EdgeMicroserver/blob/main/3D-Printer-Control-Hub/images/file%20management.png" />
-</p>
-
-
-
----
-
-
-<a name="raspbian"/>
-
-<details close>
-<summary>Installing Raspbian</summary>
-
----
-  
-<p>
-Instead of hosting a precompiled image, we are going to go through the steps to build your own custom image on the Raspberry Pi.
-
-You will need to download the Raspberry Pi Imager and flash the 32-Bit Raspbian OS onto a new SD card. After downloading the Raspberry Pi imager and selecting the correct os, you will see the below image. Click **Write** when ready.
-</p>
-<br>
-
-<p align="center">
-  <img width="460" height="300" src="https://github.com/PTC-Education/RPi-EdgeMicroserver/blob/main/3D-Printer-Control-Hub/images/raspbian-32bit.png" />
-</p>
-
-<p>
-After flashing the SD card, boot the Raspberry Pi while connected to a monitor so that you are able to access the graphical user interface. Remember the default login on fresh Raspberry Pi images is **username/password: pi/raspberry**. 
-</p>
-<br>
-
-<p>
-From here connect to your WiFi network and ensure that ssh is enabled on your new image by typing 
-</p>
-  
-```bash
-sudo raspi-config
-```
-<p>
-Select Interface Options > SSH > Yes to enable ssh on your system
-</p>
-  
----
-  
-</details>  
-
 
 
 
