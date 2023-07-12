@@ -29,7 +29,7 @@ The high level of the Developer Portal Tutorial walks the user through install, 
   
 **Step 1:**
 <p>
-No changes on this step
+Unzip the zipped file.
 </p> 
   
 ---  
@@ -40,7 +40,7 @@ Download the EMS .zip file and drag from the Downloads folder to the root folder
 From here you can continue and unzip folder, feel free to remove the downloaded zip file with
   
 ```bash 
-rm MED-61060-CD-054_SP9_Microserver-Linux-arm-hwfpu-openssl-5-4-6-1154.zip
+rm MED-61060-CD-054_SP10_Microserver-Linux-arm-hwfpu-openssl-5-4-10-1509.zip
 ```
   
 ---
